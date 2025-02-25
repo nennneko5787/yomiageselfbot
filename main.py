@@ -12,4 +12,4 @@ bot = commands.Bot("v#")
 async def setup_hook():
     await bot.load_extension("cogs.yomiage")
 
-bot.run(os.getenv("discord")
+bot.run(os.getenv("discord"))
